@@ -1,0 +1,98 @@
+/* Homepage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepage-header {
+    background-color: #5a5a5a;
+    color: white;
+    padding: 40px;
+    border-bottom: 5px solid #161207; /* Golden border */
+  }
+  
+  .homepage-header h1 {
+    font-size: 3rem;
+    color: aliceblue;
+    margin: 0;
+  }
+  
+  .homepage-header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .art-description, .gallery-mission {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .art-description h2, .gallery-mission h2 {
+    font-size: 2rem;
+    color: #13110d; /* Golden color */
+    margin-bottom: 15px;
+  }
+  
+  .art-description p, .gallery-mission p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .art-images {
+    margin: 40px auto;
+  }
+  
+  .art-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .art-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #1a1816;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .art-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .homepage-footer {
+    background-color: #5a5a5a;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 1rem;
+    border-top: 5px solid #120f08; /* Golden border */
+  }
+  
+  .homepage-footer p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .art-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .art-image {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  
