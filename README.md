@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# **JFSD Hosting**  
 
-In the project directory, you can run:
+## **Overview**  
+This project hosts the **JFSD (Java Full Stack Development) application** on **GitHub Pages**. It provides a **fully functional and responsive web application**, built using **ReactJS** for the frontend and **Spring Boot** for backend services.  
 
-### `npm start`
+## **Key Features**  
+✅ **Hosted on GitHub Pages** – Publicly accessible web app.  
+✅ **Responsive UI** – Built with **ReactJS** for a smooth user experience.  
+✅ **User Authentication** – Secure login and signup system.  
+✅ **Dynamic Navigation** – Features multiple pages with dropdown support.  
+✅ **Payment Integration** (if applicable) – Paytm Payment Gateway.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Tech Stack**  
+- **ReactJS** – Frontend framework  
+- **Spring Boot** – Backend framework (if applicable)  
+- **GitHub Pages** – Hosting platform  
+- **CSS (in JS)** – Styling without separate CSS files  
+- **REST API** – Backend communication  
+- **Paytm API** (if integrated) – Secure transactions  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Live Hosting URL**  
+🌍 **[Access the hosted site here](https://gamparishitha.github.io/JFSD-hosting/)**  
 
-### `npm test`
+## **Installation & Setup**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Frontend Setup (ReactJS)**  
 
-### `npm run build`
+1️⃣ **Clone the repository:**  
+```sh
+git clone https://github.com/GampaRishitha/JFSD-hosting.git
+cd JFSD-hosting
+```
+2️⃣ **Install dependencies:**  
+```sh
+npm install
+```
+3️⃣ **Run the frontend locally:**  
+```sh
+npm start
+```
+4️⃣ **Deploy to GitHub Pages:**  
+```sh
+npm run deploy
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Project Structure**  
+📂 **JFSD-hosting**  
+ ├── 📁 **src** → React components & logic  
+ ├── 📁 **public** → Static assets  
+ ├── 📄 **README.md** → Project documentation  
+ ├── 📄 **index.js** → Entry point  
+ ├── 📄 **App.js** → Main React component  
+ ├── 📁 **pages** → Includes **Home, Signup, Signin, ArtForms, Payments**  
+ ├── 📄 **package.json** → Dependencies & scripts  
+ ├── 📁 **reducers** → State management logic  
+ ├── 📁 **PaytmIntegration** → Payment processing logic  
+ └── 📄 **gh-pages-config** → GitHub Pages deployment settings  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **How It Works**  
+- **Users can browse through the hosted web application.**  
+- **Login and Signup functionality for secure authentication.**  
+- **Dynamic dropdown for ‘ArtForms’ (Medieval, Ancient, Modern).**  
+- **GitHub Pages ensures easy and free hosting.**  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Contribution**  
+Contributions are welcome! You can:  
+✅ Optimize performance.  
+✅ Improve UI/UX.  
+✅ Enhance features and add integrations.  
 
-### `npm run eject`
+## **License**  
+This project is open-source and available under the **MIT License**.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Contact**  
+For queries or collaboration, reach out via **GitHub Issues** or email.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 **Happy Hosting!**  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
